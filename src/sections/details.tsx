@@ -19,11 +19,11 @@ const Cart = () => {
 	return (
 		<VStack w='full' h='full' p={10} spacing={10} alignItems='flex-start'>
 			<VStack spacing={3} alignItems='flex-start'>
-				<Heading size='2xl'>Your detailts</Heading>
+				<Heading size='2xl'>Your details</Heading>
 				<Text>If you already have an acount, click here to log in.</Text>
 			</VStack>
 			<SimpleGrid column={3} columnGap={3} rowGap={6} w='full'>
-				<GridItem colSpan={2}>
+				<GridItem colSpan={colSpan}>
 					<FormControl>
 						<FormLabel>First Name</FormLabel>
 						<Input placeholder='John' />
@@ -62,7 +62,7 @@ const Cart = () => {
 					<Checkbox defaultChecked>Ship to the billing address.</Checkbox>
 				</GridItem>
 				<GridItem colSpan={2}>
-					<Button size='lg' w='full'>
+					<Button variant='primary' size='lg' w='full'>
 						Place Order
 					</Button>
 				</GridItem>
