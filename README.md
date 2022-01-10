@@ -1,6 +1,6 @@
 Chakra-UI basics (with NextJS)
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.jpeg)
 
 ## Getting Started
 
